@@ -5,7 +5,7 @@
     "description": "Temple API",
     "version": "1.0.0"
   },
-  "host": ['localhost:8080','l04-team-complete.onrender.com:8080' ],
+  "host": [ "localhost:8080", "l04-team-complete.onrender.com"],
   "basePath": "/",
   "schemes": [
     "http", "https"
