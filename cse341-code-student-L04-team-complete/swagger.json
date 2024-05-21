@@ -5,7 +5,7 @@
     "description": "Temple API",
     "version": "1.0.0"
   },
-  "host": "l04-team-complete.onrender.com:10000",
+  "host": "localhost:8080",
   "basePath": "/",
   "schemes": [
     "http",
@@ -19,10 +19,10 @@
         "responses": {}
       }
     },
-    "/temples": {
+    "/temples/": {
       "get": {
         "description": "API Key if needed: Ezl0961tEpx2UxTZ5v2uKFK91qdNAr5npRlMT1zLcE3Mg68XwZj3N8Dyp1R8IvFenrVwHRllOUxF0Og00l0m9NcaYMtH6Bpgdv7N",
-        "parameters": [
+        "parameters": [                    
           {
             "name": "apiKey",
             "in": "header",

@@ -5,11 +5,11 @@ const doc = {
     title: 'My API',
     description: 'Temple API',
   },
-  // host: 'localhost:8080',
-  host: 'l04-team-complete.onrender.com:10000' ,
+  host: 'localhost:8080',
+  // host: 'l04-team-complete.onrender.com:8080' ,
   schemes: ['http', 'https'],
 };
-
+console.log('test');
 const outputFile = './swagger.json';
 const endpointsFiles = ['./routes/index.js'];
 
