@@ -5,10 +5,11 @@
     "description": "Temple API",
     "version": "1.0.0"
   },
-  "host": [ "localhost:8080", "l04-team-complete.onrender.com:8080"],
+  "host": "l04-team-complete.onrender.com:10000",
   "basePath": "/",
   "schemes": [
-    "http", "https"
+    "http",
+    "https"
   ],
   "paths": {
     "/api-docs": {
@@ -38,7 +39,7 @@
         }
       },
       "post": {
-        "description": "API Key if needed: Ezl0961tEpx2UxTZ5v2uKFK91qdNAr5npRlMT1zLcE3Mg68XwZj3N8Dyp1R8IvFenrVwHRllOUxF0Og00l0m9NcaYMtH6Bpgdv7N",
+        "description": "API Key if needed: Ezl0961tEpx2UxTZ5v2uKFK91qdNAr5npRlMT1zLcE3Mg68Xwaj3N8Dyp1R8IvFenrVwHRllOUxF0Og00l0m9NcaYMtH6Bpgdv7N",
         "parameters": [
           {
             "name": "body",
